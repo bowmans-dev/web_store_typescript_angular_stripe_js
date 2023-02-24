@@ -21,9 +21,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ##### To test this in the browser... cd into the root directory,
 Install dependencies including dev dependencies:
 
-`npm install` 
-
-`npm install -D`
+`npm i` 
 
 `ng serve` 
 
