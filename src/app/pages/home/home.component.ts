@@ -4,14 +4,14 @@ import { Product } from 'src/app/models/product.model';
 import { CartService } from 'src/app/services/cart.service';
 import { StoreService } from 'src/app/services/store.service';
 
-const ROWS_HEIGHT: { [id:number]: number } = { 1: 400, 3: 335, 4: 350 }
+const ROWS_HEIGHT: { [id:number]: number } = { 1: 300, 2: 335, 3: 350 }
 
 @Component({
   selector: 'app-home',
   templateUrl: `./home.component.html`
 })
 export class HomeComponent implements OnInit, OnDestroy {
-  cols = 3;
+  cols = 2;
   rowHeight = ROWS_HEIGHT[this.cols];
   category: string | undefined;
   products: Array<Product> | undefined;

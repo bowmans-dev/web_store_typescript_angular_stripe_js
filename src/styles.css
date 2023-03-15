@@ -4,3 +4,12 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+img {
+  min-height: 180px;
+  width: auto;
+}
+
+p {
+  overflow-x: visible;
+}
